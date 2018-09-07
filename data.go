@@ -21,7 +21,7 @@ type Users struct{
 var Db *sql.DB
 func init(){
 var err error
-Db,err=sql.Open("mysql","root:sa666@tcp(59.110.159.6:3306)/test")
+Db,err=sql.Open("mysql","root:123456@tcp(00.00.00.00:3306)/test")
    if err!=nil{
 	   log.Fatal(err)
 	   return
